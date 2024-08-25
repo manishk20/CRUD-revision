@@ -18,15 +18,14 @@ export default function Read () {
     }
 
     return (<>
-        <div className="container mt-4">
-      <table className="table table-striped">
+          <div className="container mt-4">
+        <table className="table table-striped">
         <thead className="thead-dark">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone</th>
+            <th scope="col">S no.</th>
+            <th scope="col">Title</th>
+            <th scope="col">Note Content</th>
+            <th scope="col">Date</th>
           </tr>
         </thead>
         <tbody>
@@ -35,28 +34,24 @@ export default function Read () {
             <td>John</td>
             <td>Doe</td>
             <td>john.doe@example.com</td>
-            <td>(123) 456-7890</td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>Jane</td>
             <td>Smith</td>
             <td>jane.smith@example.com</td>
-            <td>(098) 765-4321</td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>Sam</td>
             <td>Brown</td>
             <td>sam.brown@example.com</td>
-            <td>(555) 555-5555</td>
           </tr>
           <tr>
             <th scope="row">4</th>
             <td>Lisa</td>
             <td>White</td>
             <td>lisa.white@example.com</td>
-            <td>(444) 444-4444</td>
           </tr>
         </tbody>
       </table>

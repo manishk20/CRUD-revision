@@ -1,8 +1,7 @@
-import './App.css';
+import "./App.css";
 // import FrontPage from './FrontPage';
-import RootRoutes from './RootRoutes';
-import { BrowserRouter as Router } from 'react-router-dom';
-
+import RootRoutes from "./RootRoutes";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -18,10 +17,10 @@ function App() {
       </header>
     </div>
      */}
-     <Router>
-     <RootRoutes/>
-     </Router>
-      </div>
+      <Router>
+        <RootRoutes />
+      </Router>
+    </div>
   );
 }
 
